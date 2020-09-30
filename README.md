@@ -23,6 +23,9 @@ Under the main menu:
 # Installation
 Install the entire repository locally or clone the repository using the Git client. An executable version of Optimize.Bio will be released soon, however to currently run Optimize.Bio, ensure that Python, PyQt5, re, webbrowser, datetime, DNAChisel, and Biopython are downloaded on your computer. This will not be necessary once an update in the form of an .exe is posted. 
 
+The file hosting the application is called OptimizeBioGUI.py, containing all operations relevant to the GUI. Sequence alignment and optimization procedures are stored in the sequence_operations.py file. The MUSCLE algorithm is stored in the file muscle3.8.31_i86win32.exe and MUST be in the same directory as the GUI and sequence operations files. Finally, style.qss is the stylesheet used to create the dark theme for the application. 
+unaligned.fasta, unaligned3.fasta, and unaligned4.fasta are sample file inputs that can be uploaded to Optimize.Bio to test functionality.
+
 
 # Future Work
 1) Currently Optimize.Bio only supports alignment and optimization of amino acid sequences. A future version will include support for alignment and optimization of DNA sequences, as well as support for further optimization tools present in the DNAChisel repository such as secondary structure optimization and removal of hairpin loops through integration with [NUPACK](http://www.nupack.org).
