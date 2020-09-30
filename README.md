@@ -20,13 +20,22 @@ Under the main menu:
 1) Export Current Output: Creates a .txt log file with the input sequences, output sequence, and date/time of file creation for tracking and external use.
 2) Clear and Reset: Resets all settings to default (as if the application was just opened)
 
+# Installation
+Install the entire repository locally or clone the repository using the Git client. An executable version of Optimize.Bio will be released soon, however to currently run Optimize.Bio, ensure that Python, PyQt5, re, webbrowser, datetime, DNAChisel, and Biopython are downloaded on your computer. This will not be necessary once an update in the form of an .exe is posted. 
+
+
+# Future Work
+1) Currently Optimize.Bio only supports alignment and optimization of amino acid sequences. A future version will include support for alignment and optimization of DNA sequences, as well as support for further optimization tools present in the DNAChisel repository such as secondary structure optimization and removal of hairpin loops through integration with [NUPACK](http://www.nupack.org).
+2) The current program is limited in handling alignment of sequences with significantly different lengths, where gaps are inserted by the MUSCLE algorithm. Codon optimization is challenging as the current program cannot predict whether a specific amino acid should be inserted at the site or gaps should be removed from the consensus sequence. A future version will include an option to separate alignment and codon optimization, to retrieve the aligned sequence and manipulate it separately and perform a separate codon optimization on it. In addition, alternative strategies may be employed to handle gap insertion.
+3) The current program only generates the optimized sequence for a given protein but does not include a specific implementation for cloning. A future version will include the option to generate a sequence including restriction enzyme sites for cloning into specific plasmids, as well as optimize for mammalian or bacterial plasmid expression. Export formats may also be adapted for uploading sequences to [Benchling](https://www.benchling.com) or [SnapGene](https://www.snapgene.com) for further manipulation and processing.
 
 # Relevant Credit
 1) Thanks to the Edinburgh Genome Foundry for developing DNAChisel, an incredibly powerful bioinformatics platform that continues to grow everyday. Take a look at DNAChisel [here](https://github.com/Edinburgh-Genome-Foundry/DnaChisel).
 2) Thanks to Colin Duquesnoy for the QDarkStyleSheet used as the theme for this application. The stylesheet can be found [here](https://github.com/ColinDuquesnoy/QDarkStyleSheet/blob/master/qdarkstyle/style.qss).
+All other references to websites, packages, modules, etc. are not endorsements and are owned by their respective developers.
 
 # License = MIT
-Optimize.Bio is an open-source software developed by me (Gaurav Byagathvalli) and released on GitHub under the MIT license. Feel free to contribute or suggest improvements!
+Optimize.Bio is an open-source software developed by me (Gaurav Byagathvalli) and released on GitHub under the MIT license. Feel free to contribute or suggest improvements! 
 
 # References 
 1) Edgar R. C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic acids research, 32(5), 1792–1797. https://doi.org/10.1093/nar/gkh340
