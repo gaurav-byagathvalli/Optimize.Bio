@@ -21,7 +21,9 @@ Under the main menu:
 2) Clear and Reset: Resets all settings to default (as if the application was just opened)
 
 # Installation
-Install the entire repository locally or clone the repository using the Git client. An executable version of Optimize.Bio will be released soon, however to currently run Optimize.Bio, ensure that Python, PyQt5, re, webbrowser, datetime, DNAChisel, and Biopython are downloaded on your computer. This will not be necessary once an update in the form of an .exe is posted. 
+Install the entire repository locally or clone the repository using the Git client. An executable version of Optimize.Bio will be released soon, however to currently run Optimize.Bio, ensure that Python, PyQt5, re, webbrowser, datetime, DNAChisel, and Biopython are downloaded on your computer. 
+
+If you do not want to install local dependencies, an executable version of Optimize.Bio is available at [this link](https://drive.google.com/drive/folders/1HYWTog6ynP1OgSz-Cz54DID7ce3PKHOc?usp=sharing). Download the file to your local computer and run OptimizeBioGUI.exe to execute the application.
 
 Note: Optimize.Bio is currently designed to run on Windows OS. Functionality for MacOS is dependent on the muscle algorithm's executable file for the MacOS which is still being implemented for this application and will be released in the future.
 
@@ -40,7 +42,7 @@ unaligned.fasta, unaligned3.fasta, and unaligned4.fasta are sample file inputs t
 All other references to websites, packages, modules, etc. are not endorsements and are owned by their respective developers.
 
 # License = MIT
-Optimize.Bio is an open-source software developed by me (Gaurav Byagathvalli) and released on GitHub under the MIT license. Feel free to contribute or suggest improvements! 
+Optimize.Bio is an open-source software developed by me (Gaurav Byagathvalli) and released on GitHub under the MIT license. Feel free to contribute or suggest improvements! Usage of this software also eliminates the creator from any liability or issues that arise through use of Optimize.Bio.
 
 # References 
 1) Edgar R. C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic acids research, 32(5), 1792–1797. https://doi.org/10.1093/nar/gkh340
