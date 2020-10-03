@@ -23,7 +23,7 @@ Under the main menu:
 # Installation
 Install the entire repository locally or clone the repository using the Git client. An executable version of Optimize.Bio will be released soon, however to currently run Optimize.Bio, ensure that Python, PyQt5, re, webbrowser, datetime, DNAChisel, and Biopython are downloaded on your computer. 
 
-If you do not want to install local dependencies, an executable version of Optimize.Bio is available at [this link](https://drive.google.com/drive/folders/1HYWTog6ynP1OgSz-Cz54DID7ce3PKHOc?usp=sharing). Download the file to your local computer and run OptimizeBioGUI.exe to execute the application.
+If you do not want to install local dependencies, an executable version of Optimize.Bio is available at [this link](https://drive.google.com/drive/folders/1Bw6ZT0LXKe9s96WjH3xoClRrsnLsdg7T?usp=sharing). Download the file to your local computer and run OptimizeBioGUI.exe to execute the application. Download the main directory as well, and after running the application, open unaligned4.fasta in file upload to test the application.
 
 Note: Optimize.Bio is currently designed to run on Windows OS. Functionality for MacOS is dependent on the muscle algorithm's executable file for the MacOS which is still being implemented for this application and will be released in the future.
 
